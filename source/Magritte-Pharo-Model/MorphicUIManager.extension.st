@@ -1,6 +1,6 @@
-Extension { #name : #MorphicUIManager }
+Extension { #name : 'MorphicUIManager' }
 
-{ #category : #'*Magritte-Pharo-Model' }
+{ #category : '*Magritte-Pharo-Model' }
 MorphicUIManager >> chooseFile: windowTitle in: directoryString [
 
 	| chooser |
