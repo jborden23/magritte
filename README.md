@@ -6,12 +6,12 @@ Magritte is a fully dynamic meta-description framework that helps to solve those
 
 ### Installation
   * [Pharo Smalltalk](http://www.pharo.org/):
-    * Pharo 6.x - 11.x: 
+    * Pharo 6.x - 12.x: 
     ```smalltalk
     Metacello new
       baseline: 'Magritte';
       repository: 'github://magritte-metamodel/Magritte';
-      load
+      load.
        ```
     * Pharo 4.x: In the Configuration Browser (under [World Menu]->Tools), "Load Stable Version"
     * Previous versions: Load `ConfigurationOfMagritte3` from http://smalltalkhub.com/mc/Magritte/Magritte3/main/. 
